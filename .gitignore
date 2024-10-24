@@ -20,14 +20,7 @@
 # Configuration
 wp-config.php
 
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
-/wp-content/uploads/
+/themes/*/node_modules/
 
 # Log files
 *.log

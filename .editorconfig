@@ -1,0 +1,22 @@
+# top-most EditorConfig file
+root = true
+
+# WordPress theme files
+[*]
+indent_style = tab
+indent_size = 4
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# PHP files for WordPress theme
+[*.php]
+indent_style = tab
+indent_size = 4
+
+# JavaScript files for WordPress theme
+[*.js]
+
+# CSS files for WordPress theme
+[*.css]

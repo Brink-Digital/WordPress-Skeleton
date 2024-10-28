@@ -15,7 +15,7 @@ class PostTypeFactory {
      * 
      * return void
      */
-    public static function registerPostTypes() {
+    public static function register() {
         foreach ( self::$postTypes as $postTypeClass ) {
             if ( class_exists( $postTypeClass ) ) {
                 new $postTypeClass();
